@@ -1,20 +1,10 @@
-Kobuki Driver
-=============
+Kobuki Firmware
+===============
 
-[[Identify a Version](#identify-a-version)][[Flash the Firmware](#flash-the-firmware)]
+*This package is not a necessary dependency for the Kobuki runtime.*
 
-This package provides the firmware blobs for a Kobuki.
+This package merely provides a home for the firmware binaries, which should only ever be needed if you need to re-flash or upgrade your Kobuki's firwmare.
 
-**It is not a necessary dependency for the Kobuki runtime.**
-
-## Identify a Version
-
-Aside from the version numbers, there are three descriptive identifiers that can help you find the version you need.
-
-* latest: most recent, but be aware that this version hasn't been tested much
-* stable: more recent than factory and reasonably well tested
-* factory: flashed onto the robots at the factory, has undergone stress testing
-
-## Flash the Firmware
-
-http://kobukikr.yujinrobot.com/wiki/upgrading-firmware-linux/
+Information about and instructions for updating Kobuki firmware can be found under
+[Firmware](https://kobuki.readthedocs.io/en/devel/firmware.html) in the
+[Kobuki Documentation](https://kobuki.readthedocs.io/).
